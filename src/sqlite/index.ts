@@ -14,7 +14,7 @@ const connect = async (callback: (value: string) => void) => {
 }
 
 const syncAll = async () => {
-    await sequelize.sync({ alter: true });
+    await sequelize.sync();
     console.log("All models were synchronized successfully.");
 }
 

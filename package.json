@@ -44,7 +44,8 @@
     "express": "^4.17.3",
     "sequelize": "^6.19.0",
     "sqlite3": "^5.0.4",
-    "tslib": "~2.3.1"
+    "tslib": "~2.3.1",
+    "watcher": "^1.2.0"
   },
   "volta": {
     "node": "16.13.0"
